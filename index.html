@@ -3,12 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Životopis MR</title>
+    <title>Mykhailo Radchenko CV</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
+<script src="./scripts/script.js" defer></script>
+<!-- Toto je tělo stránky -->
 <body>
     <h1>Bc. Mykhailo Radchenko</h1>
-    <p>Toto je testovací stránka pro životopis!</p>
-    <a href="https://www.vut.cz/studenti/zav-prace/detail/164886" target="_blank">Analýza použitelnosti trigonometrické nivelace na železnici</a>
-    <img src="obrazek-bp.png">
+    <p><b>Email:</b> <i>rawasavsky@gmail.com</i> | Praha, Česko</p>
+    <hr/>
+
+    <h2 class="bp-nadpis" id="bp-nadpis">Vzdělání</h2>
+
+    <ul>
+        <li>FAST VUT v Brně, obor Geodézie a kartografie</li>
+        <ol>2022–2025</ol>
+        <ol>Studium ukončeno státní zkouškou a získáním titulu Bc.</ol>
+        <ol>Ocenění děkana za bakalářskou práci: <a href="https://www.vut.cz/studenti/zav-prace/detail/164886" target="_blank">Analýza použitelnosti trigonometrické nivelace na železnici</a>
+        </ol>
+        <img src="./images/obrazek-bp.png" width="500em">
+    </ul>
+
+    <ul>
+        <li>FSv ČVUT v Praze, obor Geodézie a kartografie; specializace Geomatika</li>
+        <ol>2022–současnost</ol>
+        <ol>Magisterské studium</ol>
+    </ul>
+
+    <ul>
+        <li>Znalost jazyků</li>
+        <ol>Ukrajinština - rodilý mluvčí</ol>
+        <ol>Ruština - rodilý mluvčí</ol>
+        <ol>Angličtina - B2 - pokročilý</ol>
+        <ol>Čeština - B2 - pokročilý</ol>
+        <ol>Japonština - začátečník</ol>
+    </ul>
+    <h2>Pracovní praxe v oboru</h2>
+    <ul>
+        <li>KVADRANT, spol. s r. o.</li>
+        <ol>2023–2024</ol>
+        <ol>Zpracování dat, měření v terénu</ol>
+    </ul>
+    <ul>
+        <li>Geodet-Brno s.r.o.</li>
+        <ol>2024–2025</ol>
+        <ol>Zpracování dat, měření v terénu</ol>
+    </ul>
+    <ul>
+        <li>Gefos a.s.</li>
+        <ol>2025–současnost</ol>
+        <ol>Zpracování dat, měření v terénu</ol>
+    </ul>
+    <h2>Oborové zaměření</h2>
+    <ul>
+    <ol>Automatizace zpracování dat s využitím Python skriptů</ol>
+    <ol>GIS Vývoj</ol>
+    <ol>Vektorizace bodových mračen</ol>
+    <ol>Geografické informační systémy</ol>
+    <ol>Geometrické plány</ol>
+    </ul>
+    
+    <span id="tema-text">Tmavé téma</span>
+    <label class="switch">
+    <input type="checkbox" onchange="zmenTema(this)">
+    <span class="slider"></span>
+    </label>
+
+
+    <button onclick="zmenFont()">Změnit font</button>
+    <hr/>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7307.559827240543!2d14.390128845981064!3d50.103548281446386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b953bc00ed77d%3A0x43d70d04924c48ed!2sFakulta%20stavebn%C3%AD%20%C4%8CVUT%20v%20Praze!5e1!3m2!1scs!2scz!4v1772110996912!5m2!1scs!2scz" width="60%" height="450" style="border:0;border-radius:5%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </body>
 </html>

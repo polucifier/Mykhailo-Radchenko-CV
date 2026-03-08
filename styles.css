@@ -140,7 +140,7 @@ input:checked + .slider:before{
 
 /* mapa */
 iframe{
-    margin-top: 15px;
+    /*margin-top: 15px;*/
     border-radius: 12px;
     box-shadow: 0 3px 12px rgba(0,0,0,0.15);
 }

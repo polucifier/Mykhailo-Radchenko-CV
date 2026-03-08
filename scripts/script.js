@@ -11,7 +11,7 @@ console.log(x && y); // false
 console.log(x || y); // true
 console.log(!x); // false
 
-document.body.style.fontFamily = 'Comic Sans MS, Comic Sans, cursive'
+document.body.style.fontFamily = "'Itim', cursive";
 document.body.style.backgroundColor = "#f0f0f0";
 
 function zmenTema(prepinac){
@@ -41,9 +41,9 @@ function zmenTema(prepinac){
     }
 }
 function zmenFont(){
-    if(document.body.style.fontFamily === 'Comic Sans MS, Comic Sans, cursive'){
+    if(document.body.style.fontFamily === "'Itim', cursive";){
         document.body.style.fontFamily = "Arial, Helvetica, sans-serif";
     } else {
-        document.body.style.fontFamily = 'Comic Sans MS, Comic Sans, cursive';
+        document.body.style.fontFamily = "'Itim', cursive";
     }
 }
